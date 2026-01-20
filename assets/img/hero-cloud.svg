@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Cloud architecture abstract background">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#eaf2ff" offset="0"/>
+      <stop stop-color="#f7fbff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#2563eb" offset="0"/>
+      <stop stop-color="#22c55e" offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#line)" stroke-width="2" opacity="0.3">
+    <path d="M0,520 C200,420 400,580 600,480 C800,380 1000,540 1200,440"/>
+    <path d="M0,420 C200,320 400,480 600,380 C800,280 1000,440 1200,340"/>
+    <path d="M0,320 C200,220 400,380 600,280 C800,180 1000,340 1200,240"/>
+  </g>
+  <g opacity="0.15">
+    <circle cx="220" cy="160" r="90" fill="#2563eb"/>
+    <circle cx="300" cy="160" r="70" fill="#22c55e"/>
+    <circle cx="270" cy="120" r="40" fill="#60a5fa"/>
+  </g>
+</svg>
