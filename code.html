@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Techzzi Services</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0d59f2",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "md": "0.375rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar hide for cleaner mobile look if needed */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d121c] dark:text-gray-100 font-display min-h-screen relative pb-24">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-40 w-full backdrop-blur-md bg-background-light/90 dark:bg-background-dark/90 border-b border-gray-200 dark:border-gray-800">
+<div class="px-4 h-16 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<!-- Logo Icon -->
+<div class="flex items-center justify-center w-8 h-8 rounded bg-primary text-white">
+<span class="material-symbols-outlined text-xl">cloud_circle</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-[#0d121c] dark:text-white">Techzzi</span>
+</div>
+<button class="flex items-center justify-center w-10 h-10 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors">
+<span class="material-symbols-outlined text-[#0d121c] dark:text-white">menu</span>
+</button>
+</div>
+</header>
+<!-- Page Content -->
+<main class="w-full max-w-lg mx-auto px-4 pt-6 flex flex-col gap-6">
+<!-- Headline Section -->
+<div>
+<h1 class="text-3xl font-bold leading-tight text-[#0d121c] dark:text-white mb-2">Our Expertise</h1>
+<p class="text-base font-normal text-gray-600 dark:text-gray-400 leading-relaxed">
+                Tailored cloud solutions and automation strategies for your enterprise infrastructure.
+            </p>
+</div>
+<!-- Service Cards List -->
+<div class="flex flex-col gap-5">
+<!-- Card 1: Azure Support -->
+<div class="group relative flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] dark:shadow-none border border-gray-100 dark:border-gray-700 overflow-hidden transition-all hover:shadow-md">
+<div class="p-5 flex flex-col gap-4">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-lg bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-[#0078D4]">
+<span class="material-symbols-outlined text-3xl">grid_view</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-[#0d121c] dark:text-white">Azure Support</h3>
+<p class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">Infrastructure</p>
+</div>
+</div>
+</div>
+<p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                        Expert management for your Microsoft cloud environment, from VNETs to App Services.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded-md bg-gray-50 dark:bg-gray-700 text-xs font-medium text-gray-600 dark:text-gray-300 border border-gray-100 dark:border-gray-600">VNETs</span>
+<span class="px-2.5 py-1 rounded-md bg-gray-50 dark:bg-gray-700 text-xs font-medium text-gray-600 dark:text-gray-300 border border-gray-100 dark:border-gray-600">App Services</span>
+</div>
+<button class="mt-2 w-full flex items-center justify-center h-10 px-4 bg-primary hover:bg-blue-700 text-white text-sm font-semibold rounded-lg transition-colors">
+                        Request Support
+                    </button>
+</div>
+</div>
+<!-- Card 2: AWS Support -->
+<div class="group relative flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] dark:shadow-none border border-gray-100 dark:border-gray-700 overflow-hidden transition-all hover:shadow-md">
+<div class="p-5 flex flex-col gap-4">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-[#FF9900]">
+<span class="material-symbols-outlined text-3xl">cloud_queue</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-[#0d121c] dark:text-white">AWS Support</h3>
+<p class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">Infrastructure</p>
+</div>
+</div>
+</div>
+<p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                        Scalable architecture design and troubleshooting for EC2, S3, and Lambda functions.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded-md bg-gray-50 dark:bg-gray-700 text-xs font-medium text-gray-600 dark:text-gray-300 border border-gray-100 dark:border-gray-600">EC2</span>
+<span class="px-2.5 py-1 rounded-md bg-gray-50 dark:bg-gray-700 text-xs font-medium text-gray-600 dark:text-gray-300 border border-gray-100 dark:border-gray-600">Lambda</span>
+<span class="px-2.5 py-1 rounded-md bg-gray-50 dark:bg-gray-700 text-xs font-medium text-gray-600 dark:text-gray-300 border border-gray-100 dark:border-gray-600">S3</span>
+</div>
+<button class="mt-2 w-full flex items-center justify-center h-10 px-4 bg-primary/10 hover:bg-primary/20 text-primary dark:text-blue-400 dark:hover:bg-blue-900/30 text-sm font-semibold rounded-lg transition-colors border border-transparent hover:border-primary/20">
+                        Request Support
+                    </button>
+</div>
+</div>
+<!-- Card 3: IaC -->
+<div class="group relative flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] dark:shadow-none border border-gray-100 dark:border-gray-700 overflow-hidden transition-all hover:shadow-md">
+<div class="p-5 flex flex-col gap-4">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-lg bg-purple-50 dark:bg-purple-900/20 flex items-center justify-center text-purple-600">
+<span class="material-symbols-outlined text-3xl">code_blocks</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-[#0d121c] dark:text-white">Infrastructure as Code</h3>
+<p class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">Development</p>
+</div>
+</div>
+</div>
+<p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                        Automate your deployments using Terraform and Bicep for consistent environments.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded-md bg-gray-50 dark:bg-gray-700 text-xs font-medium text-gray-600 dark:text-gray-300 border border-gray-100 dark:border-gray-600">Terraform</span>
+<span class="px-2.5 py-1 rounded-md bg-gray-50 dark:bg-gray-700 text-xs font-medium text-gray-600 dark:text-gray-300 border border-gray-100 dark:border-gray-600">Bicep</span>
+</div>
+<button class="mt-2 w-full flex items-center justify-center h-10 px-4 bg-primary/10 hover:bg-primary/20 text-primary dark:text-blue-400 dark:hover:bg-blue-900/30 text-sm font-semibold rounded-lg transition-colors border border-transparent hover:border-primary/20">
+                        Request Support
+                    </button>
+</div>
+</div>
+<!-- Card 4: Automation -->
+<div class="group relative flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] dark:shadow-none border border-gray-100 dark:border-gray-700 overflow-hidden transition-all hover:shadow-md">
+<div class="p-5 flex flex-col gap-4">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-lg bg-green-50 dark:bg-green-900/20 flex items-center justify-center text-green-600">
+<span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-[#0d121c] dark:text-white">DevOps &amp; Automation</h3>
+<p class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">Operations</p>
+</div>
+</div>
+</div>
+<p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                        Streamline your CI/CD pipelines and reduce manual operational toil.
+                    </p>
+<button class="mt-2 w-full flex items-center justify-center h-10 px-4 bg-primary/10 hover:bg-primary/20 text-primary dark:text-blue-400 dark:hover:bg-blue-900/30 text-sm font-semibold rounded-lg transition-colors border border-transparent hover:border-primary/20">
+                        Request Support
+                    </button>
+</div>
+</div>
+<!-- Card 5: Managed Support -->
+<div class="group relative flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] dark:shadow-none border border-gray-100 dark:border-gray-700 overflow-hidden transition-all hover:shadow-md">
+<div class="p-5 flex flex-col gap-4">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-lg bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-red-600">
+<span class="material-symbols-outlined text-3xl">support_agent</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-[#0d121c] dark:text-white">24/7 Managed Services</h3>
+<p class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">Managed</p>
+</div>
+</div>
+</div>
+<p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                        Proactive monitoring and incident response for peace of mind.
+                    </p>
+<button class="mt-2 w-full flex items-center justify-center h-10 px-4 bg-primary/10 hover:bg-primary/20 text-primary dark:text-blue-400 dark:hover:bg-blue-900/30 text-sm font-semibold rounded-lg transition-colors border border-transparent hover:border-primary/20">
+                        Request Support
+                    </button>
+</div>
+</div>
+</div>
+</main>
+<!-- Floating WhatsApp Action -->
+<div class="fixed bottom-6 w-full px-4 flex justify-center z-50 pointer-events-none">
+<button class="pointer-events-auto shadow-[0_4px_12px_rgba(0,0,0,0.15)] bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-full px-6 py-3 flex items-center gap-3 transition-transform active:scale-95">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span class="font-bold text-base">WhatsApp Support</span>
+</button>
+</div>
+</body></html>
